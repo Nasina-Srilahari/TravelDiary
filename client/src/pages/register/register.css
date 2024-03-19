@@ -1,0 +1,99 @@
+/* .register {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputContainer {
+  margin-bottom: 10px;
+  padding-top: 1px; /* Add padding to the top */
+/*}
+
+.rContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rInput{
+  height: 30px;
+  padding: 10px;
+}
+
+.rButton {
+  border: none;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.rButton:disabled{
+  background-color: #0071c28c;
+  cursor: not-allowed;
+} */
+
+.register {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 20px 20px 20px;
+}
+
+.register-heading {
+  text-align: center;
+}
+
+.rContainer1{
+  margin-top: 70px;
+}
+
+.rContainer2 {
+  background-color: #ffffff;
+  border-radius: 10px; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px 20px 20px 20px;
+  max-width: 400px; 
+  margin: 30px 30px 30px 30px;
+}
+
+/* .registrationForm {
+  width: 100%;
+} */
+
+.rInput {
+  height: 20px;
+  padding: 10px 0 10px 5px;
+  width: 90%;
+  margin-top: 20px;
+  color: #00c2b2;
+  border: solid 1px #00c2b2;
+  border-radius: 5px;
+}
+
+.rButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #00c2b2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.rButton:disabled {
+  background-color: #eff0f08c;
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 840px) {
+  .lContainer1{
+    display: none;
+  }
+}
